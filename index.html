@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+
+    <link rel="shortcut icon" href="portfolio.png" type="image/x-icon" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main>
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img src="robiul-profile.png" alt="Abhi Ram Tej" width="80" />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Abhi Ram tej">Robiul Alam</h1>
+
+            <p class="title">Web Developer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:abhiram@gmail.com" class="contact-link"
+                  >robiulbusiness02@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+91 9xxx4xx934" class="contact-link"
+                  >+8801758166935
+                </a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="bag-check-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Projects</p>
+
+                <time datetime="1989-01-21">10 +</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Feni, Bangladesh</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="mt-5 info-content">
+          <button class=" title">Download Resume</button>
+        </div>
+      </aside>
+
+      <div class="main-content">
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Projects</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I'm working in web development and Design. I enjoy creating
+              beautiful and intuitive web designs using Html css and make them
+              interactive with Javascript.
+            </p>
+
+            <p>
+              My job is to build your website so that it is functional and
+              user-friendly but at the same time attractive. Moreover, I add
+              personal touch to your product and make sure that is eye-catching
+              and easy to use. My aim is to bring across your message and
+              identity in the most creative way. I created web design for many
+              famous brand companies.
+            </p>
+          </section>
+
+          <section class="service">
+            <h3 class="h3 service-title">My Services !</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img class="w-12 md:w-16" src="coding.png" alt="" />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Front End Development</h4>
+
+                  <p class="service-item-text">
+                    High-quality development of sites at the professional level.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="layers.png"
+                    alt="mobile app icon"
+                    class="w-12 md:w-14"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Back End Development</h4>
+
+                  <p class="service-item-text">
+                    Web development Full Tutorials and Course Work.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img class="w-14 md:w-20" src="app-development.png" alt="" />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Full Stack Development</h4>
+
+                  <p class="service-item-text">
+                    The most modern and high-quality design made at a
+                    professional level.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="responsive.png"
+                    alt="camera icon"
+                    class="w-12 md:w-20"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Responsive Design</h4>
+
+                  <p class="service-item-text">
+                    I make high-quality photos of any category at a professional
+                    level.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <section class="mb-[30px] md:mb-0">
+            <h3 class="h3 testimonials-title">What I'm Doing Currently !</h3>
+
+            <ul class="grid grid-cols-1 gap-4 sm:grid-cols-2 testimonials-list">
+              <li class="testimonials-item">
+                <div class="mt-5 md:mt-0 content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="fci.jpg"
+                      alt="Arjun"
+                      width="50"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    FENI GOVT. COMPUTER INSTITUTE
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Studying Diploma in Engineering in Telecommubication &
+                      Technology (TCT) since 2023, Batch no. 18 "Connecting the
+                      world, one signal at a time. As future telecom engineers,
+                      we bridge distances, power communication, and innovate for
+                      a smarter tomorrow. At Feni Computer Institute, we master
+                      technology to shape the future. Engineering isn't just a
+                      field—it's a mission to keep the world connected."
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="mt-5 md:mt-0 content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      style="border-radius: 50%"
+                      src="fci ict club.jpg"
+                      alt="Arshitha"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    FCI ICT CLUB
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Assistant Mentor (Web Development & Programming) Faculty
+                      "Empowering the next generation of coders! As a web
+                      development and programming assistant mentor at FCI ICT
+                      Club, I guide learners in mastering code, solving
+                      problems, and building the future. Technology evolves, and
+                      so do we—one line of code at a time!"
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="portfolio.png"
+                    alt="Abhi"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img src="icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Abhi</h4>
+
+                <time datetime="2021-06-14">14 Jan, 2025</time>
+
+                <div data-modal-text>
+                  <p>
+                    I was equiped foe creating a Restaurent Website using Html,
+                    css and Javascript. There Requirements where the website
+                    should be responsive to all devices and it should contain
+                    Interactive Order section, fully optimized and safe payment
+                    section.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img width="40" src="html.png" alt="" />
+                  <div>
+                    <h5 class="h5">HTML</h5>
+                    <data value="95">95%</data>
+                  </div>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 95%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img class="-ml-2" width="50" src="css-3.png" alt="" />
+                  <div>
+                    <h5 class="h5">CSS</h5>
+                    <data value="80">95%</data>
+                  </div>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 95%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img width="30" src="js.png" alt="" />
+                  <div>
+                    <h5 class="h5">JavaScript</h5>
+                    <data value="90">80%</data>
+                  </div>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img width="40" src="tailwind.png" alt="" />
+                  <div>
+                    <h5 class="h5">Tailwid CSS</h5>
+                    <data value="80">90%</data>
+                  </div>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img width="40" src="React.webp" alt="" />
+                  <div>
+                    <h5 class="h5">React JS</h5>
+                    <data value="80">80%</data>
+                  </div>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img width="20" src="mongoDB.png" alt="" />
+                  <div>
+                    <h5 class="h5">MongoDB</h5>
+                    <data value="80">80%</data>
+                  </div>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img width="40" src="firebase.webp" alt="" />
+                  <div>
+                    <h5 class="h5">Firebase</h5>
+                    <data value="80">85%</data>
+                  </div>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 85%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Feni Govt. Computer Institute
+                </h4>
+
+                <span>2023 — Present</span>
+
+                <p class="timeline-text">
+                  Currently Studying Diploma in Engineering in Telecommunication
+                  & Technology.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Feni G A Academy High School
+                </h4>
+
+                <span>2020 - 2022</span>
+
+                <p class="timeline-text">
+                  I have completed my Secondary School Certificate (SSC) in
+                  Commerce by securing GPA-4.58.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Feni Collegiate School</h4>
+
+                <span>2013 — 2019</span>
+
+                <p class="timeline-text">
+                  Completed my Junior School Certificate (JSC) by securing
+                  GPA-3.93
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Assistant Mentor</h4>
+
+                <span>2024 — Present</span>
+
+                <p class="timeline-text">
+                  Working as a Assistant Mentor in Web Development & Programmung
+                  Faculty at FCI ICT CLUB.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img width="40" src="html.png" alt="" />
+                  <div>
+                    <h5 class="h5">HTML</h5>
+                    <data value="95">95%</data>
+                  </div>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 95%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img class="-ml-2" width="50" src="css-3.png" alt="" />
+                  <div>
+                    <h5 class="h5">CSS</h5>
+                    <data value="80">95%</data>
+                  </div>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 95%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img width="30" src="js.png" alt="" />
+                  <div>
+                    <h5 class="h5">JavaScript</h5>
+                    <data value="90">80%</data>
+                  </div>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img width="40" src="tailwind.png" alt="" />
+                  <div>
+                    <h5 class="h5">Tailwid CSS</h5>
+                    <data value="80">90%</data>
+                  </div>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img width="40" src="React.webp" alt="" />
+                  <div>
+                    <h5 class="h5">React JS</h5>
+                    <data value="80">80%</data>
+                  </div>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img width="20" src="mongoDB.png" alt="" />
+                  <div>
+                    <h5 class="h5">MongoDB</h5>
+                    <data value="80">80%</data>
+                  </div>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img width="40" src="firebase.webp" alt="" />
+                  <div>
+                    <h5 class="h5">Firebase</h5>
+                    <data value="80">85%</data>
+                  </div>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 85%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <article class="portfolio" data-page="projects">
+          <header>
+            <h2 class="h2 article-title">Projects</h2>
+          </header>
+
+          <section class="projects">
+            <!-- <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web development</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web design</button>
+              </li>
+            </ul> -->
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web development</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web design</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a target="_blank" href="https://robiulalam02.github.io/Tutor-Sheba/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="tutor-sheba-project.png"
+                      alt="car rental"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Tutor Sheba</h3>
+
+                  <p class="project-category">Learning Platform</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a target="_blank" href="https://robiulalam02.github.io/Kids-School-B11-A2/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="kids-project.png" alt="movies" loading="lazy" />
+                  </figure>
+
+                  <h3 class="project-title">Kids School</h3>
+
+                  <p class="project-category">Kids Landing Page</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a target="_blank" href="https://robiulalam02.github.io/Kids-School-B11-A2/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="pet-project.png" alt="dlife" loading="lazy" />
+                  </figure>
+
+                  <h3 class="project-title">Browse4Pets</h3>
+
+                  <p class="project-category">Pet Shop</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a target="_blank" href="https://robiulalam02.github.io/Penguin-Fashion/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="fashion-project.png" alt="TRAVEL" loading="lazy" />
+                  </figure>
+
+                  <h3 class="project-title">Penguin Fashion</h3>
+
+                  <p class="project-category">Fashion Shopping</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a target="_blank" href="https://robiulalam02.github.io/Tea-House-Landing/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="tea-project.png" alt="coffee" loading="lazy" />
+                  </figure>
+
+                  <h3 class="project-title">Tea House</h3>
+
+                  <p class="project-category">Cafe Restaurent</p>
+                </a>
+              </li>
+
+              <!-- <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="PORTFOLIO_.png" alt="portfolio" loading="lazy" />
+                  </figure>
+
+                  <h3 class="project-title">Portfolio</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="SHOPPING_.png" alt="shopping" loading="lazy" />
+                  </figure>
+
+                  <h3 class="project-title">Shopping</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li> -->
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="CAR_RENTAL2_.png"
+                      alt="car rental"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Car Rental</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">reach out !</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                width="400"
+                height="300"
+                loading="lazy"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d470026.3922229322!2d91.08248124898309!3d23.0207910087414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37536821ff0c2e39%3A0xf094eed60ba43331!2sFeni%20District!5e0!3m2!1sen!2sbd!4v1739373951333!5m2!1sen!2sbd"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form class="form" action="https://formsubmit.co/mdrrobiul935@gmail.com" method="POST">
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email Address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Submit</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
